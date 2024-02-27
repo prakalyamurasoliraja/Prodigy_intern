@@ -1,0 +1,90 @@
+/* styles.css */
+
+/* Apply background image for the entire page */
+.gip {
+    margin: 0;
+    padding: 0;
+    background-image: url('blue5.avif');
+    background-size: cover;
+    height: 800px;
+    background-position: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Center the form container */
+  .containeradp {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  /* Box container for the form */
+  .form-containeradp {
+    width: 350px; /* Adjust the width as per your requirement */
+    margin: auto; /* Center the container horizontally */
+    background-color: rgba(23, 21, 21, 0.8); /* Semi-transparent background */
+    padding: 40px 40px 40px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Apply box shadow */
+  }
+  /* Placeholder text color */
+  .form-containeradp input[type="text"]::placeholder,
+  .form-containeradp input[type="number"]::placeholder,
+  .form-containeradp input[type="date"]::placeholder,
+  .form-containeradp input[type="tel"]::placeholder,
+  .form-containeradp input[type="email"]::placeholder,
+  .form-containeradp select::placeholder {
+    color: #999;
+  }
+  
+  /* Text field styles */
+  .form-containeradp input[type="text"],
+  .form-containeradp input[type="number"],
+  .form-containeradp input[type="date"],
+  .form-containeradp input[type="tel"],
+  .form-containeradp input[type="email"],
+  .form-containeradp select {
+    width: 100%;
+    padding: 7px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    background: transparent;
+    outline: none;
+    font-size: 1.2rem;
+    color: #b3acac;
+    transition: border-bottom 0.3s;
+  }
+  
+  /* Change border color on focus */
+  .form-containeradp input[type="text"]:focus,
+  .form-containeradp input[type="number"]:focus,
+  .form-containeradp input[type="date"]:focus,
+  .form-containeradp input[type="tel"]:focus,
+  .form-containeradp input[type="email"]:focus,
+  .form-containeradp select:focus {
+    border-bottom: 2px solid #214b1e;
+  }
+  
+  /* Button styles */
+  .form-containeradp button[type="submit"],
+  .form-containeradp button[type="button"] {
+    width: 95%;
+    padding: 9px;
+    margin-left: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #5b5413;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Change background color on hover */
+  .form-containeradp button[type="submit"]:hover,
+  .form-containeradp button[type="button"]:hover {
+    background-color: #2f3c5a;
+  }

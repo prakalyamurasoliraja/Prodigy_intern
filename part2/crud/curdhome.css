@@ -1,0 +1,117 @@
+.sun1
+{
+  background: url("rose.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0%;
+  height: 735px;
+}
+.sun-container {
+    max-width: 1100px;
+    padding-top: 30px;
+    margin: 90px auto 0;
+  }
+  .new-collection
+  {
+    text-align: center;
+    font-size: 35px;
+    color: #010810;
+    margin-top: 110px;
+    margin-bottom: 30px;
+    font-weight: bolder;
+  }
+  .sun-records {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(250px, 1fr)); /* Adjust the minimum width and the fractional unit */
+    gap: 40px;
+  }
+  
+  .sun-search-bar {
+    width: 30%;
+    margin-left: 350px;
+    padding: 10px;
+    margin-bottom: 55px; /* Adjust the margin-bottom as needed */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  .sun-record-content img{
+    width:300px;
+    height:280px;
+    margin-right: 10px;
+  }
+  .sun-search-bar:focus {
+    outline: none;
+    border-color: #010810; /* Change border color on focus */
+  }
+  
+  .sun-record {
+    background-color: #f8f9fa;
+    border: 2px solid #3da27d;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 9px 18px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition for smooth hover effect */
+  }
+  
+  .sun-record:hover {
+    transform: scale(1.05); /* Increase size of grid item on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add box shadow on hover */
+  }
+  
+  .sun-record-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sun-record-content > div {
+    margin-bottom: 10px;
+  }
+  
+  .sun-update-btn,
+  .sun-delete-btn,
+  .sun-create-btn {
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .sun-create-link {
+    margin-top: 20px;
+    display: inline-block;
+  }
+  
+  .sun-create-btn {
+    background-color: #0056b3;
+    color: #fff;
+    font-size: 18px;
+  }
+  
+  .sun-create-btn:hover {
+    background-color: #0056b3;
+    font-size: 23px;
+  }
+  
+  .sun-update-btn {
+    background-color: #000000;
+    color: #fff;
+    font-size: 18px;
+  }
+  
+  .sun-update-btn:hover {
+    background-color: #3b3b3b;
+  }
+  
+  .sun-delete-btn {
+    background-color: #ff0019;
+    margin-left: 10px;
+    color: #fff;
+    font-size: 18px;
+  }
+  
+  .sun-delete-btn:hover {
+    background-color: #df3344;
+  }

@@ -1,0 +1,131 @@
+/* Container for the home page */
+.adhomep {
+    position: relative; /* Ensure proper positioning for the pseudo-element */
+    height: 100vh; /* Adjust height as needed */
+}
+
+/* Pseudo-element for the background */
+.adhomep::before {
+    content: ""; /* Required for pseudo-elements */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('blue5.avif');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8; /* Opacity for the background image */
+    z-index: -1; /* Ensure the background is behind other content */
+}
+
+/* Create New Payment button */
+.create-payment-buttonp {
+    margin-top: 20px;
+    padding: 18px 30px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff; /* Primary button color */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.create-payment-buttonp:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+.create-payment-buttonp:active {
+    transform: translateY(1px);
+}
+
+/* Title style */
+.home-containerrrp {
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%; /* Adjust container width */
+    max-width: 1200px; /* Maximum width */
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    text-align: center;
+}
+
+.home-containerrrp h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Table style */
+.tablep {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.tablep th,
+.tablep td {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+    font-size: 18px;
+}
+
+.tablep th {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.tablep td {
+    background-color: #fff;
+    color: #555;
+}
+
+.tablep td button {
+    margin-right: 10px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.tablep td button.info-btn {
+    background-color: #17a2b8;
+    color: #fff;
+}
+
+.tablep td button.danger-btn {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.tablep td button:hover {
+    opacity: 0.8;
+}
+
+/* New Payment Details section style */
+.new-payment-detailsp {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.new-payment-detailsp h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.new-payment-detailsp .tablep td {
+    font-weight: bold;
+    color: #333;
+}

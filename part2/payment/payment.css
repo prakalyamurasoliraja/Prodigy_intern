@@ -1,0 +1,32 @@
+.payment-history {
+  margin-bottom: 20px;
+  background: url("pay.webp");
+  height: 850px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.payment-table {
+  margin-top: 150px;
+  width: 80%;
+  border-collapse: collapse;
+  margin-left: 170px;
+}
+
+.payment-header {
+  background-color: #f2f2f2;
+  text-align: left;
+  padding: 8px;
+}
+
+.payment-table td {
+  border: 1px solid #000000;
+  padding: 15px;
+  text-align: left;
+  background-color: #dddddd;
+  margin-bottom: 10px; /* Add a margin to create a gap between rows */
+}
+
+.payment-table tr:hover {
+  background-color: #ddd;
+}
